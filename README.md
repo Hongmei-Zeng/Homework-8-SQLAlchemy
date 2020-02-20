@@ -14,7 +14,7 @@ This task includes four routes:
 * /api.v1.0/precipitation
 * /api/v1.0/stations
 * /api/v1.0/tobs
-* /api/v1.0/vacation/<start_date>/<end_date>: 
+* /api/v1.0/vacation
 
   It takes "start_date" and/or "end_date" of the vacation
 
