@@ -58,7 +58,7 @@ def calc_temps(start_date, end_date):
                         .all()                            
     return temp_ls
 
-@app.route("/api/v1.0/vacation/<start_date>/<end_date>")
+@app.route("/api/v1.0/vacation")
 def trip():
     request_start_date = request.args['start_date']
     start_date = datetime.strptime(request_start_date, '%Y-%m-%d')
