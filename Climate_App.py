@@ -3,7 +3,7 @@ import sqlalchemy
 from sqlalchemy import create_engine, inspect, func
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from flask import Flask, jsonify, request, abort
+from flask import Flask, jsonify, request
 from datetime import datetime
 
 db_path = os.path.join('Resources', 'hawaii.sqlite')
